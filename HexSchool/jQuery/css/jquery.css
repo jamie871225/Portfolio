@@ -100,6 +100,7 @@ table {
 }
 .headertext{
     display:flex;
+    z-index:100;
 }
 .dropdown{
     display:block;
@@ -145,6 +146,9 @@ table {
     font-weight:bold;
     color:rgb(196, 196, 196);
     opacity:0.7;
+}
+.dropdown-contact{
+    width:100%;
 }
 .banner{
     position:relative;
